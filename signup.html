@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,9 +11,10 @@
     <link rel="shortcut icon"
         href="https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5b2c9171e2934a9ba9598fbf_huber_favicon.png"
         type="image/x-icon">
-        <link rel="stylesheet" href="signup_style.css">
+    <link rel="stylesheet" href="signup_style.css">
     <title>UsabilityHub . Sign Up</title>
 </head>
+
 <body>
     <!-- for nav bar  -->
     <nav>
@@ -35,18 +37,56 @@
                     <h2 class="form-section-header">
                         Sign up to UsabilityHub
                     </h2>
-                    <div class="form flex">
+                    <div class="form-body-section flex">
                         <form action="#">
+                            <div class="form-body flex">
 
+                                <div class="input-outer-div">
+                                    <label for="fullname" class="full-name form-lable">Full Name
+                                        <span class="required-star">*</span>
+                                    </label>
+                                    <input class="name-input form-input" type="text" name="fullname" id="fullname"
+                                        required placeholder="Your Name">
+                                </div>
+
+                                <div class="input-outer-div">
+                                    <label for="organizationName"
+                                        class="organization-name form-lable">organization</label>
+                                    <input class="Organization-input form-input" type="text" name="organizationName"
+                                        id="organizationName" placeholder="Your organization">
+                                </div>
+
+                                <div class="input-outer-div">
+                                    <label for="email" class="email form-lable">Email
+                                        <span class="required-star">*</span>
+                                    </label>
+                                    <input class="email-input form-input" type="email" name="email" id="email" required
+                                        placeholder="Your Email">
+                                </div>
+
+                                <div class="input-outer-div">
+                                    <label for="password" class="password form-lable">Password
+                                        <span class="required-star">*</span>
+                                    </label>
+                                    <input class="password-input form-input" type="password" name="password"
+                                        id="password" required placeholder="Your Name">
+                                </div>
+
+                                <div class="terms-privacy">
+                                    <p>By signing up, you agree to UsabilityHub’s <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.
+                                    </p>
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </div>
 
                 <div class="logo-section">
-    
+
                 </div>
-            </div>            
+            </div>
         </div>
     </section>
 </body>
+
 </html>

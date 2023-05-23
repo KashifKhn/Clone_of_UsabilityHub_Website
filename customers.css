@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section: 20px;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    color: var(--primary-text-color);
+}
+
+h1 {
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+p {
+    font-family: 'roboto', sans-serif;
+    font-size: 1.25rem;
+    color: var(--secondary-text-color);
+    line-height: 1.8rem;
+    letter-spacing: 1px;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+/* utility classes */
+
+.small-bold-text {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--padding-inline-section);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.hover-link {
+    color: var(--primary-text-color);
+    transition: 0.3s ease-in-out;
+}
+
+.hover-link:hover {
+    color: var(--accent-color);
+}
+
+.primary-btn {
+    background-color: var(--accent-color);
+    color: #fff !important;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    box-shadow: 0 0 2px var(--secondary-text-color);
+    transition: 0.3s ease-in-out;
+}
+
+.primary-btn:hover {
+    background-color: var(--accent-color-dark);
+}
+
+.secondary-btn {
+    background-color: white;
+    color: var(--primary-text-color);
+    padding: 12px 24px;
+    border: 0.5px solid var(--secondary-text-color);
+    border-radius: 6px;
+    transition: 0.3s ease-in-out;
+}
+
+.secondary-btn:hover {
+    border-color: var(--accent-color);
+    color: var(--accent-color) !important;
+}
+
+/* top banner */
+
+.top-banner {
+    background-color: #e74694 ;
+    background-image: url(assets-customers/asset\ 44.png);
+    background-size: 300px;
+}
+
+.banner-text {
+    color: white;
+    text-align: center;
+    padding: 15px 30px;
+    font-size: .9rem;
+    font-weight: lighter;
+}
+
+.main-nav {
+    margin-block: 20px;
+    justify-content: space-between;
+}
+
+.company-logo img {
+    width: 150px;
+}
+
+.nav-links {
+    flex-basis: 730px;
+}
+
+.nav-links ul {
+    justify-content: end;
+    gap: 40px;
+}
