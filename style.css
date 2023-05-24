@@ -184,6 +184,8 @@ header {
     height: 46px;
 }
 
+/* features -section */
+
 .features-section {
     padding: 80px var(--padding-inline-section) 0;
     margin-top: 70px;

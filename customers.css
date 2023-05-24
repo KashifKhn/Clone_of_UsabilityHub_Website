@@ -94,7 +94,7 @@ ul {
     background-color: white;
     color: var(--primary-text-color);
     padding: 12px 24px;
-    border: 0.5px solid var(--secondary-text-color);
+    border: 0.5px solid #b9cde4;
     border-radius: 6px;
     transition: 0.3s ease-in-out;
 }
@@ -161,6 +161,7 @@ ul {
 .example-section-container {
     flex-direction: column;
     align-items: flex-start;
+    margin-bottom: 100px;
 }
 
 .example-section-header h3 {
@@ -232,4 +233,89 @@ ul {
 .example-section-actor-text p {
     font-size: .87rem;
     font-weight: 400;
+}
+
+.example-section-btn a {
+    font-size: 16px;
+}
+
+/* companies logo section*/
+
+.companies-section {
+    margin-block-start: 300px;
+    margin-block-end: 150px;
+}
+
+.companies-section-logo {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section-logo {
+    height: 46px;
+}
+
+/* cta section */
+
+.cta-section-container {
+    padding: 120px var(--padding-inline-section) 80px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+/* footer  */
+
+.footer-section {
+    background-color: #ebf2fa;
+    padding: 60px var(--padding-inline-section);
+
+}
+
+.footer-container {
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.company-footer-logo img {
+    width: 150px;
+}
+
+.column-link {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.column-link h5 {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.column-link a {
+    color: #577592;
+}
+
+/* subfooter */
+
+.subfooter {
+    background-color: #b9cde4;
+    padding:var(--padding-inline-section);
+}
+
+.subfooter-container {
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.subfooter-link {
+    gap: 30px;
+}
+
+.subfooter-icon {
+    gap: 20px;
 }
