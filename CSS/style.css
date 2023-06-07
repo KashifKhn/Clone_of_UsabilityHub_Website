@@ -107,7 +107,7 @@ ul {
 
 /* top banner */
 .top-banner {
-    background-image: url(assets/asset\ 32.png);
+    background-image: url(../assets/asset\ 32.png);
     background-color: #e74694;
     background-size: 300px;
 
@@ -189,7 +189,7 @@ header {
 .features-section {
     padding: 80px var(--padding-inline-section) 0;
     margin-top: 70px;
-    background-image: url(assets/asset\ 41.svg);
+    background-image: url(../assets/asset\ 41.png);
     background-size: 100% 100%;
     background-clip: border-box;
     background-repeat: no-repeat;
@@ -395,7 +395,7 @@ header {
 }
 
 .plane-section-img {
-    background-image: url(assets/asset\ 40.png);
+    background-image: url(../assets/asset\ 40.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -410,7 +410,7 @@ header {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url(assets/asset\ 41.png);
+    background-image: url(../assets/asset\ 41.png);
     background-position: center;
     background-repeat: no-repeat;
     z-index: 1;
