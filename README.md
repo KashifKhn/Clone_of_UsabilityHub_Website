@@ -42,5 +42,4 @@ This project is licensed under the [MIT License](LICENSE).
 ## Acknowledgements
 
 - This project was inspired by the original UsabilityHub website (https://usabilityhub.com/).
-- [Insert any other acknowledgements or resources used]
 
