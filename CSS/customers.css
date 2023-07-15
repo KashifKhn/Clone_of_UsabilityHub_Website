@@ -104,40 +104,6 @@ ul {
     color: var(--accent-color) !important;
 }
 
-/* top banner */
-
-.top-banner {
-    background-color: #e74694 ;
-    background-image: url(../assets-customers/asset\ 44.png);
-    background-size: 300px;
-}
-
-.banner-text {
-    color: white;
-    text-align: center;
-    padding: 15px 30px;
-    font-size: .9rem;
-    font-weight: lighter;
-}
-
-.main-nav {
-    margin-block: 20px;
-    justify-content: space-between;
-}
-
-.company-logo img {
-    width: 150px;
-}
-
-.nav-link {
-    flex-basis: 730px;
-}
-
-.nav-link ul {
-    justify-content: end;
-    gap: 40px;
-}
-
 /* header text  */
 
 .header-text {
